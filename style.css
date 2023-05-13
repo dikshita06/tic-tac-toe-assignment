@@ -67,7 +67,7 @@ td:nth-child(7){
     border-bottom: none !important;
 }
 td:hover{
-    background-color: rgb(103, 100, 100);
+    background-color: rgba(70, 94, 161, 0.529);
 }
 button{
     margin: 1rem 0;
