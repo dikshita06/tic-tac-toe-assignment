@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(105, 57, 238);
+
+}
+/* #player-form{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(239, 191, 236);
+    border-radius: 10px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+} */
+#player1,
+#player2{
+    background-color: rgb(154, 236, 188);
+    border-radius: 10px;
+    width: 150px;
+    height: 20px;
+    font-style: oblique;
+}
+h1{
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(239, 109, 243);
+}
+#game-board{
+    color: black;
+}
+table{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 8px rgb(242, 231, 244);
+}
+td{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    font-style: oblique;
+}
+td:first-child,
+td:nth-child(2),
+td:nth-child(3){
+    border-top: none;
+}
+td:nth-child(3n + 1){
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td:nth-child(3n + 2){
+    border-bottom: 1px solid black;
+}
+td:nth-child(3n + 3){
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td:nth-child(7){
+    border-bottom: none !important;
+}
+td:hover{
+    background-color: rgb(103, 100, 100);
+}
+button{
+    margin: 1rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 200px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: rgb(3, 145, 3);
+    color: white;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    box-shadow: 2px 2px 0px rgb(4, 195, 4) inset;
+    font-style: oblique;
+}
+button:hover{
+    background: rgb(1, 84, 1);
+}
